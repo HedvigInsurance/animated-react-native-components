@@ -30,7 +30,6 @@
     "@types/react": "^16.4.11",
     "@types/react-native": "^0.56.14",
     "@types/react-test-renderer": "^16.0.2",
-    "@types/rollup-plugin-json": "^3.0.0",
     "constate": "^0.8.0",
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
@@ -38,21 +37,20 @@
     "jest": "^23.5.0",
     "lint-staged": "^7.2.2",
     "prettier": "^1.14.2",
+    "rambda": "^1.2.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-lifecycle-components": "^1.0.0",
     "react-native": "^0.56.0",
+    "react-native-mock-render": "^0.1.2",
     "react-test-renderer": "^16.4.2",
     "rollup": "^0.65.0",
-    "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-commonjs": "^9.1.8",
     "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-terser": "^3.0.0",
     "rollup-plugin-typescript": "^1.0.0",
     "ts-jest": "^23.1.4",
-    "typescript": "^3.0.3",
-    "react-native-mock-render": "^0.1.2",
-    "rollup-plugin-terser": "^3.0.0",
-    "rambda": "^1.2.2"
+    "typescript": "^3.0.3"
   },
   "dependencies": {}
 }
