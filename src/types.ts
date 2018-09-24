@@ -1,0 +1,1 @@
+export type AnimationConfigWithoutToValue<T> = Pick<T, Exclude<keyof T, "toValue">>
