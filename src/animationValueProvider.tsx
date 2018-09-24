@@ -1,14 +1,14 @@
-import * as React from 'react';
-import { Container } from 'constate';
-import { Animated } from 'react-native';
+import * as React from 'react'
+import { Container } from 'constate'
+import { Animated } from 'react-native'
 
 interface State {
-  animatedValue: Animated.Value;
+  animatedValue: Animated.Value
 }
 
 interface AnimationValueProviderProps {
-  children: (state: State) => React.ReactNode;
-  initialValue: number;
+  children: (state: State) => React.ReactNode
+  initialValue: number
 }
 
 export const AnimationValueProvider: React.SFC<AnimationValueProviderProps> = ({
@@ -20,4 +20,4 @@ export const AnimationValueProvider: React.SFC<AnimationValueProviderProps> = ({
   >
     {children}
   </Container>
-);
+)

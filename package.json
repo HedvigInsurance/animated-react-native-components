@@ -15,6 +15,7 @@
     "test": "NODE_ENV=test jest",
     "prepublish": "npm run build",
     "typecheck": "tsc --noEmit",
+    "format": "prettier --write **/*.tsx",
     "lint": "tslint \"src/**/*.{ts,tsx}\""
   },
   "lint-staged": {
