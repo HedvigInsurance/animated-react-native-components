@@ -1,6 +1,6 @@
 {
   "name": "animated-react-native-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make Animated a bit more declarative",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
@@ -10,11 +10,15 @@
   "author": "Sam Pettersson <sam@hedvig.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "NODE_ENV=production rm -rf dist && rollup -c",
     "dev": "NODE_ENV=development rm -rf dist && rollup -c -w",
     "test": "NODE_ENV=test jest",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write **/*.tsx",
     "lint": "tslint \"src/**/*.{ts,tsx}\""
