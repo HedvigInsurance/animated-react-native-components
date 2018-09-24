@@ -52,5 +52,7 @@
     "ts-jest": "^23.1.4",
     "typescript": "^3.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-native-mock": "^0.3.1"
+  }
 }
