@@ -24,8 +24,8 @@
     "lint": "tslint \"src/**/*.{ts,tsx}\""
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write **/*.tsx",
+    "*.{ts, tsx}": [
+      "prettier --write",
       "git add"
     ]
   },
