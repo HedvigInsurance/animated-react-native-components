@@ -14,7 +14,11 @@ export const Delay: React.SFC<DelayProps> = ({
   config: { delay = 0 } = {},
 }) => (
   <AnimationContext.Consumer>
-    {({ addAnimation }) => {
+    {({ addAnimation = () => {
+            console.error(
+              'You are trying to run an animation without a runner.',
+            );
+          } }) => {
       return (
         <Mount
           on={() => {
